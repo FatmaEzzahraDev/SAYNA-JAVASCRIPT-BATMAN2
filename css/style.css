@@ -1,0 +1,270 @@
+/* Scrollbar styles */
+::-webkit-scrollbar {
+width: 12px;
+height: 0px;
+}
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 10px darkgrey;
+border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+border-radius: 10px;
+background: 888 ; 
+box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:hover {
+background:	#555;
+}
+
+.bat-image {
+  background-repeat: no-repeat;
+  background-color: black;
+ 
+}
+.button {
+  position: relative;
+  left:20%;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  background-color: #ffffff;
+  border: none;
+  color: #a52a2a;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.4;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
+  
+.button1 {
+  position: absolute;
+  top: 90%;
+  left: 45%;
+  cursor: pointer;
+   
+}
+
+.button:hover {opacity: 1}
+
+#d1{ 
+ position: absolute;
+text-align:center;
+}
+
+.toprighth {
+  position: absolute;
+  top:40px;
+  right: 20%;
+  font-size: 20px;
+  color:white;
+}
+.toprightg {
+  position: absolute;
+  top:40px;
+  right: 10%;
+  font-size: 20px;
+  color:white;
+}
+.topleft {
+  position: absolute;
+  top:40px;
+  left: 10%;
+}
+
+.icon-bar {
+    width: 50px;
+    position: absolute;
+    top: 35%;
+    right: 4%;
+}
+   
+.c1{ 
+    position: absolute;
+    top: 50%;
+	left: 20%;
+	} 
+.c2{ 
+    position: absolute;
+    top: 110%;
+	left: 10%;
+	}
+.c3{ 
+    position: absolute;
+    top: 170%;
+	left: 10%;
+	}
+.c4{ 
+    position: absolute;
+    top: 240%;
+	left: 10%;
+	}
+
+.c5{ 
+    position: absolute;
+    top: 320%;
+	left: 10%;
+	}
+.c6{ 
+    position: absolute;
+    top: 420%;
+	left: 10%;
+	}	
+.c7{ 
+    position: absolute;
+    top: 490%;
+	left: 15%;
+	}
+.c8 {
+  position: absolute;
+    text-align:center;
+    height: 60%;
+	width: 100%;
+    top: 580%;	
+	background-color: #808080;
+}
+.c9 {
+  position: absolute;
+    top: 640%;
+	left: 20%;
+	height: 70%;
+	width: 70%;
+	background-color: #000000;
+}
+.c10 {
+  position: absolute;
+    top: 700%;
+	left: 20%;
+	background-color: #000000;
+    height: 30%;
+	width: 70%;
+}
+.icon-bar img {
+  padding: 16px;
+
+
+}
+
+.icon-bar img:hover {
+  background-color: #000;
+}
+
+.vll {
+  border-left: 1px solid #CCC;
+  height: 100%;
+  position: absolute;
+  left: 5%;
+}
+.vlr {
+  border-left: 1px solid #CCC;
+  height: 100%;
+  position: absolute;
+  right: 5%;
+}
+div {color: white;}
+
+.column {  
+   top:90;
+  right: 20px;
+  float: left;
+  width: 30%;
+  padding: 1px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table; }
+.petit {
+font-size : xx-small;
+}
+h1{
+font-family: Arial;
+font-size: 35px;
+}
+a{text-decoration:none;}
+a:hover {
+	color:red;
+}
+
+
+/* Quiz */
+ .container {
+  display: block;
+  background-color:#000;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* .container {
+  display: block;
+  background-color:#ffffff;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+ */

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BATMAN </title><meta property="og:site_name" content="Batman">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:url" content="http://www.Batman.com/">
+<meta name="author" content="O-FEz" />
+<meta property="og:title" content="Batman">
+<meta property="og:description" content="Series Batman">
+ 
+<link rel="icon" href="Logos/logohome.png" type="image/png" sizes="56x56">
+<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->	
+<link rel="stylesheet" href="css/style.css">
+<style>	
+
+</style>
+</head>
+<body  class="bat-image" style="background-image: url('Illustrations/Batgame_1.png');"  >
+	
+	<header>
+	<br><br><br><br>
+	  <nav>
+	     <img rel="icon" src="Logos/logohome.png" class="topleft" type="image/png" sizes="56x56"/>
+         <strong><a href="home.html" class="toprighth">Home</a></strong>
+		 <strong><a href="game.html" class="toprightg" style="text-decoration: underline;">Game</a></strong>
+          <hr>
+	      <div class="vll"></div>
+	      <div class="vlr"></div>
+	<br><br>
+	  </nav>
+	</header>
+
+	<div class="icon-bar">
+       <img src="logos/logo_bat_fle݀che.png"  style="border-radius: 50%;" width="40" height="40" />
+       <img src="logos/icon_facebook.png"  style="border-radius: 50%;" width="35" height="35" />
+       <img src="logos/icon_ig.png"  style="border-radius: 50%;" width="35" height="35" />
+	   <img src="logos/icon_tw.png"  style="border-radius: 50%;" width="35" height="35" />
+	   <img src="logos/logo_bat_fle݀che_2.png"  style="border-radius: 50%;" width="40" height="40" />
+     </div>
+	 
+	<div class="c1"> 
+	   <h1>LET’S PLAY A<br>LITTLE GAME...</h1>	
+       </div>
+	   <a href="#quiz" class="button1"><img src="logos/flèche_down_header.png" alt="Image" /></a>	   
+    
+<section style="left:40%;" class="c2" >
+
+            <div id='quiz'><img src="Illustrations/Batgame_3.png" style="height: 150px; width: 150px;"></div>
+		
+    		<div class="button" id='next'><a href='#'>Question suivante</a></div>
+
+<!-- 
+<h1 style="color:white;">1/5</h1>
+<img src="Illustrations/Batgame_3.png"  style="border-radius: 50%;" width="100" height="100" />
+<h2 style="color:white;">Quel est l’autre nom de l’Homme-Mystère ?</h2>
+
+<label class="container">Le Sphinx
+  <input type="checkbox" checked="checked">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Saphir
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Le Joker
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+
+<button class="button">Question suivante</button> -->
+</section> 
+		
+<footer>
+
+<div class="c4" style="width:100%; height:40%;left:40%;top: 190%;">
+<img src="Logos/icon_WB.png"   width="2%" height="10%"/>
+<p class="petit">Ce projet respecte l’univers cinématographique des films Batman récents. Version Nolan & Snyder </p>
+<br>
+<img src="Logos/logo_sayna_white.png"   width="2%" height="10%"/>
+<img src="Logos/icon_x.png"   width="2%" height="10%" />
+<img src="Logos/icon_DC.png"   width="2%" height="10%" />
+<img src="Logos/icon_facebook.png"   width="2%" height="10%" />
+<img src="Logos/icon_ig.png"   width="2%" height="10%" />
+<img src="Logos/icon_tw.png"   width="2%" height="10%" />
+</div>
+</div>	
+</footer>
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+<script type="text/javascript" src='questions.json'></script>
+<script type='text/javascript' src='jsquiz.js'></script>
+		
+<script>
+
+(function() {
+  var questions = [{
+    question: "Quel est l’autre nom de l’Homme-Mystère ?",
+    choices: ["Le Sphinx","Saphir","Le Joker"],
+    correctAnswer: 0
+  }, {
+    question: "Quelle est l’ancienne profession de Harley Quinn ?",
+    choices: ["Infirmière","Psychiatre","Dentiste"],
+    correctAnswer: 0
+  }, {
+    question: "Quel est l’objet fétiche de Double Face ?",
+    choices: ["Une pièce","Un livre","Un couteau"],
+    correctAnswer: 0
+  }, {
+    question: "Qui a produit Batman en 1964 ?",
+    choices: ["Stanley Kubrick ","Andy Warhol","Peter Jackson"],
+    correctAnswer: 0
+  }, {
+    question: "Batman c’est aussi le nom d’une ville en...",
+    choices: ["Turquie","Islande","Allemagne"],
+    correctAnswer: 0
+  }, {
+    question: "Quel vilain apparaît pour la première fois dans le Batman 232 ?",
+    choices: ["Le Pingouin","Ra’s al Ghul","Poison Ivy"],
+    correctAnswer: 0
+  }, {
+    question: "Quelle ville Batman défend-il ?",
+    choices: ["Gotham City","Starling City","Hell’s Kitchen"],
+    correctAnswer: 0
+  }, {
+    question: "Tim Burton a réalisé deux Batman, qui jouait Batman ?",
+    choices: ["Georges Clooney","Val Kilmer","Mickael Keaton"],
+    correctAnswer: 0
+  }, {
+    question: "Dans son premier Batman (1989) Jack Nicholson jouait :",
+    choices: ["Le Pingouin","L’Homme Mystère","Le Joker"],
+    correctAnswer: 0
+  }, {
+    question: "Qui est Jonathan Crane ? ",
+    choices: ["L’Épouvantail","Le Joker","Hugo Strange"],
+    correctAnswer: 0
+  }, {
+    question: "Qui est l’interprète de Catwoman dans le nouveau Batman de Matt Reeves (2022) ?",
+    choices: ["Emma Watson","Gigi Hadid","Lola Iolani Momoa"],
+    correctAnswer: 0
+  }, {
+    question: "Quel est le prénom des parents du jeune Bruce Wayne ?",
+    choices: ["Thomas et Martha","Elaine et Georges","Martha et James"],
+    correctAnswer: 0
+  }, {
+    question: "Qui interprète le Joker en 2008 ?",
+    choices: ["Heath Legder","Haeth Ledger","Heath Ledger"],
+    correctAnswer: 0
+  }, {
+    question: "En quelle année Robin fait il sa première apparition ?",
+    choices: ["1940","1939","1941"],
+    correctAnswer: 0
+  }, {
+    question: "Qui est la fille de Batman et Catwoman (Earth - 2) ?",
+    choices: ["Oracle","Huntress","Black Canary"],
+    correctAnswer: 0
+  }
+  ];
+  
+  var questionCounter = 0; 
+  var selections = []; 
+  var quiz = $('#quiz'); 
+  
+
+  displayNext();
+  
+  $('#next').on('click', function (e) {
+    e.preventDefault();
+    
+    if(quiz.is(':animated')) {        
+      return false;
+    }
+    choose();
+
+    if (isNaN(selections[questionCounter])) {
+      alert('Veuillez faire une sélection!');
+    } else {
+      questionCounter++;
+      displayNext();
+    }
+  });
+  
+  function createQuestionElement(index) {
+    var qElement = $('<div>', {
+      id: 'question'
+    });
+    
+    var header = $('<h2>Question ' + (index + 1) + '/15:</h2>');
+    qElement.append(header);
+    
+    var question = $('<p style="font-size:22px;">').append(questions[index].question);
+    qElement.append(question);
+    
+    var checkboxButtons = createCheckboxs(index);
+    qElement.append(checkboxButtons);
+    
+    return qElement;
+  }
+
+  function createCheckboxs(index) {
+    var checkboxList = $('<div>');
+    var item;
+    var input = '';
+    for (var i = 0; i < questions[index].choices.length; i++) {
+      item = $('<div style="font-size: 22px; color:black; background-color:#787878;margin-bottom: 10px;">');
+	
+      input = '<input type="checkbox" name="answer" value=' + i + ' style="cursor: pointer; height: 20px; width: 20px;" />';
+      input += questions[index].choices[i];
+      item.append(input);
+      checkboxList.append(item);
+    }
+    return checkboxList;
+  }
+  
+
+  function choose() {
+    selections[questionCounter] = +$('input[name="answer"]:checked').val();
+  }
+
+  function displayNext() {
+    quiz.fadeOut(function() {
+      $('#question').remove();
+      
+      if(questionCounter < questions.length){
+        var nextQuestion = createQuestionElement(questionCounter);
+        quiz.append(nextQuestion).fadeIn();
+        if (!(isNaN(selections[questionCounter]))) {
+          $('input[value='+selections[questionCounter]+']').prop('checked', true);
+        }
+        
+      
+      }else {
+        var scoreElem = displayScore();
+        quiz.append(scoreElem).fadeIn();
+        $('#next').hide();
+      }
+    });
+  }
+ 
+  function displayScore() {
+    var score = $('<p>',{id: 'question'});
+    
+    var numCorrect = 0;
+    for (var i = 0; i < selections.length; i++) {
+      if (selections[i] === questions[i].correctAnswer) {
+        numCorrect++;
+      }
+    }
+    
+	if(numCorrect < 10){
+    score.append( + numCorrect + '/' + questions.length + ' CEST PAS TOUT A FAIT ca ...!!!');}
+	 if(numCorrect > 10 && numCorrect < 15) {
+	score.append( + numCorrect + '/' + questions.length + ' PAS MAL !!!'); }
+	else {
+	score.append( + numCorrect + '/' + questions.length + ' BRAVO ...!!!');}	
+
+	
+    return score;
+
+  }
+  
+})();
+
+</script> 
+ </body>
+</html>	
